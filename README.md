@@ -61,6 +61,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [django-signature](backend/modules)
 - [payments]()
 - [react-native-appointment](modules/appointment)
+- [react-native-chat](modules/chat)
 
 # Getting started: Frontend
 
