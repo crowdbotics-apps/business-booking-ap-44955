@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+
 const styles = StyleSheet.create({
   hr: {
     marginTop: 20,
@@ -60,6 +61,7 @@ const styles = StyleSheet.create({
     borderRadius: 10
   }
 });
+
 export const localOptions = {
   stripeSecretKey: "sk_test_xxxxxxxxxxx",
   merchantName: "Example Inc.",
@@ -71,6 +73,7 @@ export const localOptions = {
   stripeTestEnv: true,
   stripePublishKey: "pk_test_xxxxxxxxxx"
 };
+
 export default {
   title: "App Menu",
   copy: "Routes available",
