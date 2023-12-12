@@ -16,6 +16,7 @@
     "@babel/polyfill": "^7.12.1",
     "@modules/appointment": "file:./modules/appointment/",
     "@modules/chat": "file:./modules/chat/",
+    "@modules/faq": "file:./modules/faq",
     "@modules/payments": "file:./modules/payments",
     "@modules/privacy-policy-webview": "file:./modules/privacy-policy-webview/",
     "@react-native-community/checkbox": "0.5.10",
