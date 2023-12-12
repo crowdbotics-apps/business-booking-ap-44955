@@ -18,34 +18,34 @@ const ClientProfileScreen = () => {
     }],
     notes: 'Prefers minimal conversation during service.'
   };
-  return <SafeAreaView style={_styles.QuPGEAAv}>
+  return <SafeAreaView style={_styles.fJHtrrgH}>
       <ScrollView>
-        <View style={_styles.OBVtBcUt}>
+        <View style={_styles.WvlkobLm}>
           <Image source={{
           uri: 'https://tinyurl.com/42evm3m3'
-        }} style={_styles.YhyfLFkN} />
-          <Text style={_styles.oQDSTVZj}>
+        }} style={_styles.jCPrNgAg} />
+          <Text style={_styles.iedkNWSJ}>
             {clientData.name}
           </Text>
-          <Text style={_styles.RGBOsBFm}>
+          <Text style={_styles.BuvhZTck}>
             {clientData.contact}
           </Text>
         </View>
-        <View style={_styles.jeZthQZy}>
-          <Text style={_styles.BFuJWcOz}>
+        <View style={_styles.JfdmrXQL}>
+          <Text style={_styles.VAFIQjcO}>
             Appointment History
           </Text>
-          {clientData.appointmentHistory.map((appointment, index) => <View key={index} style={_styles.oDSksOus}>
-              <Text style={_styles.nfCXBAjQ}>
+          {clientData.appointmentHistory.map((appointment, index) => <View key={index} style={_styles.vTsAQXXf}>
+              <Text style={_styles.dEnwciKB}>
                 {appointment.date} - {appointment.service}
               </Text>
             </View>)}
         </View>
-        <View style={_styles.cMJyhyLz}>
-          <Text style={_styles.BYWugetb}>
+        <View style={_styles.LDgilQmA}>
+          <Text style={_styles.oKCoYwQM}>
             Notes
           </Text>
-          <Text style={_styles.dfcPqocv}>{clientData.notes}</Text>
+          <Text style={_styles.mKxXyRKV}>{clientData.notes}</Text>
         </View>
       </ScrollView>
     </SafeAreaView>;
@@ -54,52 +54,52 @@ const ClientProfileScreen = () => {
 export default ClientProfileScreen;
 
 const _styles = StyleSheet.create({
-  QuPGEAAv: {
+  fJHtrrgH: {
     flex: 1,
     backgroundColor: "#f5f5f5"
   },
-  OBVtBcUt: {
+  WvlkobLm: {
     alignItems: "center",
     padding: 20
   },
-  YhyfLFkN: {
+  jCPrNgAg: {
     width: 100,
     height: 100,
     borderRadius: 50
   },
-  oQDSTVZj: {
+  iedkNWSJ: {
     fontSize: 24,
     fontWeight: "bold",
     marginTop: 10
   },
-  RGBOsBFm: {
+  BuvhZTck: {
     fontSize: 16,
     color: "gray",
     marginTop: 5
   },
-  jeZthQZy: {
+  JfdmrXQL: {
     padding: 20
   },
-  BFuJWcOz: {
+  VAFIQjcO: {
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10
   },
-  oDSksOus: {
+  vTsAQXXf: {
     marginBottom: 10
   },
-  nfCXBAjQ: {
+  dEnwciKB: {
     fontSize: 16
   },
-  cMJyhyLz: {
+  LDgilQmA: {
     padding: 20
   },
-  BYWugetb: {
+  oKCoYwQM: {
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10
   },
-  dfcPqocv: {
+  mKxXyRKV: {
     fontSize: 16
   }
 });
