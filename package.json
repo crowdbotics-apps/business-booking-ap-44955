@@ -17,6 +17,7 @@
     "@modules/appointment": "file:./modules/appointment/",
     "@modules/chat": "file:./modules/chat/",
     "@modules/payments": "file:./modules/payments",
+    "@modules/privacy-policy-webview": "file:./modules/privacy-policy-webview/",
     "@react-native-community/checkbox": "0.5.10",
     "@react-native-google-signin/google-signin": "7.2.2",
     "@react-native-masked-view/masked-view": "^0.2.9",
@@ -49,6 +50,7 @@
     "react-native-tab-view": "3.1.1",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "^0.18.10",
+    "react-native-webview": "11.23.0",
     "react-redux": "^8.0.5",
     "redux": "^4.2.1"
   },
